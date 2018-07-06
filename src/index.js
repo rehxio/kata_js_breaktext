@@ -1,8 +1,7 @@
 export const validateText = (text,columNumbers) => {
    if(text.length <= columNumbers) {
       return text;
-   }
-   else {
+   } else {
       let words = text.split(' ');
       let result = '';
       if (words.length > 1) {
